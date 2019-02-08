@@ -1,0 +1,306 @@
+.carousel-caption-modified {
+    position: absolute;
+    right: 15%;
+    bottom: 295px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.main-caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+}
+.primery-color{
+    color: #12ff00;
+}
+.main-paragraph{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.logo-text{
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+}
+.row-margin-0{
+    margin: 0;
+}
+.row-size-1 {
+    height: 57px;
+    width: 1876px;
+    /*background-color: #0b2e13;*/
+}
+.row-size-2 {
+    height: 57px;
+    /*background-color: red;*/
+}
+.margin-aj-1{
+    margin-left: 200px;
+}
+.padding-aj-1{
+    padding: 17px;
+}
+.header-main{
+    z-index: 1000;
+    /*height: 13vh;*/
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,1);
+}
+.panel-size-2{
+    height: 76px;
+}
+.panel-size{
+    height: 113px;
+    /*background-color: red;*/
+}
+.panel-size-4{
+    height: 100px;
+
+}
+.margin-top{
+    margin-top: 24px;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    animation: normal 3s fadeInUp;
+}
+.fadeInUp-slow {
+    animation: normal 8s fadeInUp;
+}
+.undeco{
+    list-style: none;
+}
+.undeco:hover{
+    color: #1cff00;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.list-font{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: #3d3d3d;
+    font-weight: bold;
+
+}
+.panel-size-3{
+    /*background-color: gray;*/
+}
+.right-aj{
+    float: right;!important;
+}
+.vehicle-list-font{
+    font-size: 20px;
+    color: #3d3d3d;
+    font-family: 'Open Sans', sans-serif;
+}
+.vehicle-font{
+    padding: 15px;
+    font-size: 27px;
+    color: #3d3d3d;
+    font-family: 'Open Sans', sans-serif;
+}
+.padding-0{
+    padding: 0;!important;
+}
+.civic{
+    width: 363px;
+    background-color: white;
+    height: 119px;
+    position: absolute;
+    left: 14px;
+    top: 138px;
+
+}
+.display-none{
+    display: none;
+}
+.display-nothing{
+    display: none;!important;
+}
+.dispNone{
+    display: none;!important;
+}
+.black{
+    background-color: #1e7e34;
+}
+.red-class{
+    color: #12ff0d;
+}
+.red{
+    color: #3bff15;
+}
+.list-color-class{
+    color: #3d3d3d;
+}
+#btnAll_vehicle:hover{
+    color: #38ff0b;
+}
+#btn_Cars:hover{
+    color: #2eff0d;
+}
+#btn_SUV:hover{
+    color: #3aff0c;
+}
+#btn_Vans:hover{
+    color: #39ff10;
+}
+#btn_Bus:hover{
+    color: #3aff0c;
+}
+.border-shadow{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.social-media{
+    color:white;
+    font-size: 35px;
+    padding: 40px;
+}
+.form-control-for_text_felids {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(73, 80, 87);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #1d17ec;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.about-img{
+    height: 512px;
+}
+.all-vehicle-img{
+    width: 392px;
+    padding: 15px;
+}
+.all-vehicle-img-padding-top-0{
+    width: 392px;
+    padding: 15px;
+    padding-top: 0;
+}
+.padding-top-0{
+    padding-top: 0;
+}
+.flex{
+    flex-direction: column;
+}
+.your_area{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.margin-top{
+    margin-top: 24px;!important;
+}
+@media all and (max-width: 1800px) and (min-width: 1440px) {
+    .about-img{
+        height: 650px;
+        width: 568px;
+    }
+    .all-vehicle-img{
+        width: 300px;
+        padding: 15px;
+    }
+    .all-vehicle-img-padding-top-0{
+        width: 300px;
+        padding: 15px;
+        padding-top: 0;
+    }
+    .main-caption{
+        font-family: 'Roboto', sans-serif;
+        font-size: 110px;
+        /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+    }.carousel-caption-modified {
+         position: absolute;
+         right: 15%;
+         bottom: 205px;
+         left: 15%;
+         z-index: 10;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         color: #fff;
+         text-align: center;
+     }
+}
+@media all and (max-width: 1439px) and (min-width: 1024px) {
+    .about-img{
+        height: 650px;
+        width: 568px;
+    }
+    .all-vehicle-img{
+        width: 272px;
+        padding: 10px;
+    }
+    .all-vehicle-img-padding-top-0{
+        width: 272px;
+        padding: 10px;
+        padding-top: 0;
+    }
+    .main-caption{
+        font-family: 'Roboto', sans-serif;
+        font-size: 78px;
+        /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+    }
+    .carousel-caption-modified {
+         position: absolute;
+         right: 15%;
+         bottom: 180px;
+         left: 15%;
+         z-index: 10;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         color: #fff;
+         text-align: center;
+     }
+    .main-paragraph{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 1023px) and (min-width: 700px) {
+    .flex{
+        flex-direction: row;
+    }
+    .main-caption{
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
+    }
+    .carousel-caption-modified {
+        position: absolute;
+        right: 15%;
+        bottom: 155px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .main-paragraph{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+}
